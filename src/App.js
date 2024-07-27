@@ -6,7 +6,8 @@ const App = () => {
   const count = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
 
-  return div;
+  return;
+  <div></div>;
 
   // <div className="App">
   //   <header className="App-header">
